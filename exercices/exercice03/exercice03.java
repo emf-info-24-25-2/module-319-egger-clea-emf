@@ -6,7 +6,7 @@ public class exercice03 {
             int age = 16;
             String nom = "Cléa";
             
-            System.out.println ("Je m'appelle "+ nom" et j'ai "+ age" ans.");
+            System.out.println ("Je m'appelle "+ nom +" et j'ai "+ age +" ans.");
     
         }
     
