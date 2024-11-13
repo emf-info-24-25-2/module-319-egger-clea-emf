@@ -10,6 +10,7 @@ public static int[] genereTableau (int min, int max, int taille);{
     return
 }
 
+//RIF: attention ce point-virgule est en trop! il empêchera voztre programme de fonctionner comme vous le souhaitez
 public static int rechercheMin (int [] tableau);{
 
 }
