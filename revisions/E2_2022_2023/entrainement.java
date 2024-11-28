@@ -22,24 +22,33 @@ public class entrainement {
     //Créez une méthode nommée afficherTarifs. Cette méthode sera uniquement responsable d’afficher les différents tarifs
     public static void afficherTarifs() {
 
-        System.out.println(PRIX_CATEGORIE_UN);
+        System.out.println(PRIX_CATEGORIE_UN); //System.out.println("Catégorie 1 : " + PRIX_CATEGORIE_UN + " CHF"); 
         System.out.println(PRIX_CATEGORIE_DEUX);
         System.out.println(PRIX_CATEGORIE_TROIS);
  
     }
 
     //Créez une méthode nommée afficherSalle
-    public static void afficherSalle(boolean[] tab) {
+    public static void afficherSalle(boolean[] tab) { //public static void afficherSalle(boolean[] occupationSalle) {
 
         System.out.println("Occupations de la salle");
 
         //Boucle pour afficher le numéro des catégories contenu dans la constante CATEGORIE_SALLE
         for (int i=0; i<CATEGORIE_SALLE.length; i++){
-            System.out.print(CATEGORIE_SALLE[i]);
+            System.out.print(CATEGORIE_SALLE[i]); //System.out.print(CATEGORIE_SALLE[i]+ " ");
         }
 
 
         //Boucle pour afficher le fait qu’une place soit occupée ou non. La méthode affichera un X pour les places libres et un O pour les places occupées
+        System.out.println();
+        for (int i=0; i<occupationSalle.length; i++){
+            if(occupationSalle[i]){
+                System.out.print("X ");
+            }
+            else{
+                System.out.print("O ");
+            }
+        }
         System.out.println();
     }
     
