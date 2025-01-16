@@ -1,7 +1,7 @@
 package devoir08;
-
+import java.util.Random;
 public class devoir08 {
-    import java.util.Random;
+    
 
     // Constantes
     private static final String[] CARACTERES = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j"};
@@ -24,7 +24,6 @@ public class devoir08 {
         while (resultat.length() < taille) {
             // Choisir une position aléatoire dans le tableau CARACTERES
             int position = random.nextInt(CARACTERES.length);
-            // Ajouter le caractère correspondant à la position dans le mot de passe
             resultat.append(CARACTERES[position]);
         }
 

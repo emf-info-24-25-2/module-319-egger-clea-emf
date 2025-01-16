@@ -1,6 +1,9 @@
+package devoir05;
+
+import java.util.Scanner;
+
 public class devoir05 {
 
-    import java.util.Scanner;
     public static void main(String[] args) {
         // Étape 1 : Générer un nombre aléatoire entre 1 et 100
         int limiteInfComprise = 1;

@@ -56,7 +56,6 @@ public class devoir04 {
         }
     }
 
-    // Méthode pour formater le jour
     private static String formatDay(int day) {
         return String.valueOf(day);
     }

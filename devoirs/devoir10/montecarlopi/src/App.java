@@ -15,7 +15,6 @@ public class App {
             }
         }
 
-        //Calcule de pi
         double estimation = 4*(double)compteur/NRB_ESSAIS;
 
         System.out.println("PI = ~"+ estimation);
